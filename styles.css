@@ -1,0 +1,771 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    caret-color: transparent;
+}
+
+.navbar {
+    background: white;
+    width: 90%;
+    height: 15%;
+    position: fixed;
+    display: flex;
+    padding: 0px;
+    z-index: 99;
+    margin: 0 5% 0;
+    box-shadow: black;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.51);
+    border: solid black;
+    border-radius: 20px;
+}
+
+.logoContainer {
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+    left: 2%;
+}
+
+.titleContainer {
+    width: 60%;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+    align-content: center;
+    display: flex;
+}
+
+.title {
+    align-self: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 3%;
+    color: black;
+}
+.GlobalMate {
+    /*color: #EDCB55;*/
+    color: black;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    align-self: end;
+    margin-bottom: 1%;
+}
+
+.serialNumberContainer {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 1%;
+}
+
+.certificate {
+    width: 100%;
+    font-size: 0.9vw;
+    color: black;
+}
+
+.tabularContent {
+    width: 100%;
+    height: 85%;
+    position: absolute;
+    top: 15%;
+    padding-top: 2%;
+    justify-content: center;
+    display: flex;
+}
+
+table.tabularFund {
+    width: 90%;
+    height: 140%;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.51);
+    padding: 2%;
+    background-color: #2f3030;
+    border-spacing: 0;
+}
+
+.tabularFund tr {
+    text-align: center;
+    color: white;
+}
+.tabularFund th {
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+}
+.tabularFund th:first-child {
+    border-radius: 20px 0 0 20px;
+}
+.tabularFund th:last-child {
+    border-radius: 0 20px 20px 0;
+}
+.tabularFund td {
+    font-size: larger;
+}
+.tabularFund td:first-child {
+    border-radius: 20px 0 0 20px;
+}
+.tabularFund td:last-child {
+    border-radius: 0 20px 20px 0;
+}
+.tabularFund tr:hover {
+    background-color: #EDCB55;
+    color: black;
+}
+.tabularFund tr td:first-child {
+    width: 30%;
+}
+
+.GraphDiv {
+    top: 140%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.titleGraph {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    position: absolute;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.51);
+}
+
+.pieGraph {
+    height: 140%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    padding: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+table.ClientTable {
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.51);
+    padding: 4%;
+    margin: 0 5% 5%;
+    background-color: #2f3030;
+    border-spacing: 10px 0 10px;
+    color: white;
+    width: 40vw;
+    height: 20vw;
+    justify-self: center;
+}
+
+.ClientTable td {
+    font-size: 1.5vw;
+}
+
+.barGraph {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    padding: 10vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+@media screen and (max-width: 1080px){
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: 'Source Sans Pro', sans-serif;
+        caret-color: transparent;
+    }
+    
+    .navbar {
+        background: white;
+        width: 90%;
+        height: 15%;
+        position: fixed;
+        display: flex;
+        padding: 0px;
+        z-index: 99;
+        margin: 0 5% 0;
+        box-shadow: black;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.51);
+        border: solid black;
+        border-radius: 20px;
+    }
+    
+    .logoContainer {
+        width: 20%;
+        height: 100%;
+        justify-content: center;
+        position: relative;
+        left: 2%;
+    }
+    
+    .titleContainer {
+        width: 60%;
+        height: 100%;
+        justify-content: center;
+        position: relative;
+        align-content: center;
+        display: flex;
+    }
+    
+    .title {
+        align-self: center;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        font-size: 2rem;
+        margin-bottom: 3%;
+        color: black;
+    }
+    .GlobalMate {
+        /*color: #EDCB55;*/
+        color: black;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        font-size: 1rem;
+        align-self: end;
+        margin-bottom: 1%;
+    }
+    
+    .serialNumberContainer {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding-right: 1%;
+    }
+    
+    .certificate {
+        width: 100%;
+        font-size: 0.9vw;
+        color: black;
+    }
+    
+    .tabularContent {
+        width: 100%;
+        height: 85%;
+        position: absolute;
+        top: 15%;
+        padding-top: 2%;
+        justify-content: center;
+        display: flex;
+    }
+    
+    table.tabularFund {
+        width: 90%;
+        height: 140%;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.51);
+        padding: 2%;
+        background-color: #2f3030;
+        border-spacing: 0;
+    }
+    
+    .tabularFund tr {
+        text-align: center;
+        color: white;
+    }
+    .tabularFund th {
+        background-color: black;
+        color: white;
+        font-size: 3vh;
+        padding: 1vw 2vw 1vw;
+    }
+    .tabularFund th:first-child {
+        border-radius: 20px 0 0 20px;
+    }
+    .tabularFund th:last-child {
+        border-radius: 0 20px 20px 0;
+    }
+    .tabularFund td {
+        font-size: 2vw;
+    }
+    .tabularFund td:first-child {
+        border-radius: 20px 0 0 20px;
+    }
+    .tabularFund td:last-child {
+        border-radius: 0 20px 20px 0;
+    }
+    .tabularFund tr:hover {
+        background-color: #EDCB55;
+        color: black;
+    }
+    .tabularFund tr td:first-child {
+        width: 30%;
+    }
+    
+    .GraphDiv {
+        top: 140%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    .titleGraph {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: auto;
+        text-align: center;
+        font-size: 2rem;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.51);
+    }
+    
+    .pieGraph {
+        height: 140%;
+        width: 50%;
+        position: relative;
+        display: flex;
+        padding: 2vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    table.ClientTable {
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.51);
+        padding: 2vw;
+        margin: 0 5% 5%;
+        background-color: #2f3030;
+        border-spacing: 10px 0 10px;
+        color: white;
+        width: 80vw;
+        height: 20vw;
+        justify-self: center;
+    }
+
+    .ClientTable td:first-child {
+        padding-left: 5vw;
+    }
+    
+    .ClientTable td {
+        font-size: 2vw;
+    }
+    
+    .barGraph {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        padding: 10vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: 'Source Sans Pro', sans-serif;
+        caret-color: transparent;
+    }
+    
+    .navbar {
+        background: white;
+        width: 90%;
+        height: 15%;
+        position: fixed;
+        display: flex;
+        padding: 2px;
+        z-index: 99;
+        margin: 0 5% 0;
+        box-shadow: black;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.51);
+        border: solid black;
+        border-radius: 20px;
+    }
+    
+    .logoContainer {
+        width: 20%;
+        height: 100%;
+        justify-content: center;
+        position: relative;
+        left: 2%;
+    }
+    
+    .titleContainer {
+        width: 60vw;
+        height: 100%;
+        position: relative;
+        justify-content: space-evenly;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title {
+        position: relative;
+        width: 100%;
+        font-size: 5vw;
+        color: black;
+    }
+    .GlobalMate {
+        /*color: #EDCB55;*/
+        color: black;
+        text-align: center;
+        width: 95%;
+        font-size: 2.5vw;
+    }
+    
+    .serialNumberContainer {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding-right: 1%;
+    }
+    
+    .certificate {
+        width: 100%;
+        font-size: 0.9vw;
+        color: black;
+    }
+    
+    .tabularContent {
+        width: 100%;
+        height: 85%;
+        position: absolute;
+        top: 15%;
+        padding-top: 2%;
+        justify-content: center;
+        display: flex;
+    }
+    
+    table.tabularFund {
+        width: 90%;
+        height: 140%;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.51);
+        padding: 2%;
+        background-color: #2f3030;
+        border-spacing: 0;
+    }
+    
+    .tabularFund tr {
+        text-align: center;
+        color: white;
+    }
+    .tabularFund th {
+        background-color: black;
+        color: white;
+        font-size: 2.5vw;
+        padding: 0 1vw 0;
+    }
+    .tabularFund th:first-child {
+        border-radius: 20px 0 0 20px;
+    }
+    .tabularFund th:last-child {
+        border-radius: 0 20px 20px 0;
+    }
+    .tabularFund td {
+        font-size: 2vw;
+    }
+    .tabularFund td:first-child {
+        border-radius: 20px 0 0 20px;
+    }
+    .tabularFund td:last-child {
+        border-radius: 0 20px 20px 0;
+    }
+    .tabularFund tr:hover {
+        background-color: #EDCB55;
+        color: black;
+    }
+    .tabularFund tr td:first-child {
+        width: 30%;
+    }
+    
+    .GraphDiv {
+        top: 140%;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    .titleGraph {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: auto;
+        text-align: center;
+        font-size: 3.5vw;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.51);
+    }
+    
+    .pieGraph {
+        height: 140%;
+        width: 50%;
+        position: relative;
+        display: flex;
+        padding: 2vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    table.ClientTable {
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.51);
+        padding: 2vw;
+        margin: 0 5% 5%;
+        background-color: #2f3030;
+        border-spacing: 10px 0 10px;
+        color: white;
+        width: 80vw;
+        height: 20vw;
+        justify-self: center;
+    }
+
+    .ClientTable td:first-child {
+        padding-left: 5vw;
+    }
+    
+    .ClientTable td {
+        font-size: 2vw;
+    }
+
+    .imageGraph {
+        width: 80vw;
+    }
+    
+    .barGraph {
+        height: auto;
+        min-width: 100vw;
+        display: flex;
+        padding: 10vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: 'Source Sans Pro', sans-serif;
+        caret-color: transparent;
+    }
+
+    html {
+        height: -webkit-fill-available;
+    }
+
+    body {
+        display: grid;
+        flex-direction: column;
+        max-width: 100vw;
+        margin: 0 auto;
+        height: 100%;
+        height: -webkit-fill-available;
+        overflow: scroll;
+        flex: 1;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .navbar {
+        background: white;
+        width: 100vw;
+        height: 12vh;
+        position: sticky;
+        display: flex;
+        padding: 2vw;
+        z-index: 99;
+        margin: 0 5vw 0;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.51);
+        border: solid black;
+        border-radius: 20px;
+    }
+    .logoContainer {
+        max-height: 100%;
+        max-width: 100%;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .titleContainer {
+        width: 60vw;
+        height: 100%;
+        flex: 1;
+        position: relative;
+        display: flex;
+    }
+    .title {
+        width: 100%;
+        height: auto;
+        font-size: 5vw;
+        color: black;
+    }
+    .GlobalMate {
+        /*color: #EDCB55;*/
+        color: black;
+        width: 100%;
+        font-size: 2vw;
+    }
+    
+    .serialNumberContainer {
+        width: 20%;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        padding-right: 1%;
+    }
+    .certificate {
+        width: 100%;
+        font-size: 1vw;
+        color: black;
+    }
+
+    .tabularContent {
+        width: 100vw;
+        height: 85vh;
+        position: absolute;
+        padding-top: 2%;
+        justify-content: center;
+        display: flex;
+    }
+    
+    table.tabularFund {
+        width: 90vw;
+        height: 70vh;
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.51);
+        padding: 2%;
+        background-color: #2f3030;
+        border-spacing: 0;
+    }
+    .tabularFund th {
+        background-color: black;
+        color: white;
+        font-size: 3vw;
+        width: 100vw;
+    }
+    .tabularFund th:first-child {
+        padding: 2vw;
+    }
+    .tabularFund th:nth-child(2){
+        padding: 2vw;
+    }
+    .tabularFund th:nth-child(3){
+        padding: 2vw;
+    }
+    .tabularFund th:nth-child(4){
+        padding: 2vw;
+    }
+    .tabularFund th:last-child {
+        padding: 2vw;
+    }
+    .tabularFund td {
+        color: white;
+        font-size: 3vw;
+    }
+    .tabularFund tr:hover {
+        color: black;
+    }
+    .GraphDiv {
+        position: absolute;
+        top: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: baseline;
+        width: 100vw;
+        height: 100vh;
+    }
+    .titleGraph {
+        width: 100vw;
+        height: 3vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        background-color: black;
+        color: white;
+        border-radius: 20px;
+        position: relative;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.51);
+    }
+    .pieGraph {
+        width: 100vw;
+        padding: 0;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+    }
+    table.ClientTable {
+        border-radius: 20px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.51);
+        padding: 4%;
+        position: relative;
+        background-color: #2f3030;
+        border-spacing: 10px 0 10px;
+        color: white;
+        width: 90vw;
+        height: 20vw;
+    }
+    
+    .ClientTable td {
+        font-size: 3vw;
+    }
+
+    .imageGraph {
+        width: 100vw;
+    }
+    .barGraph {
+        height: auto;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+}
